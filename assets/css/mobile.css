@@ -27,7 +27,6 @@ h2{
     font-style: normal;
     padding: 1.3rem;
     padding-bottom: 0.2rem;
-    margin-right: 7.3%; 
     letter-spacing: 3px;
 }
 h3{
@@ -38,8 +37,9 @@ h3{
     font-weight:550;
     font-style: normal;
     padding-bottom: 0.9rem;
-    margin-left: 40%;
+
     letter-spacing: 2px;
+    text-align: center;
 }
 
 .botoes{
