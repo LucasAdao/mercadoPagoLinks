@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Wittgenstein:ital@0;1&display=swap');
 
 body{
-    background: linear-gradient(45deg,rgb(36, 36, 36), rgb(22, 18, 18),black,black,black, rgb(36, 36, 36));
+    background: linear-gradient(45deg, rgb(220, 220, 220), rgb(240, 240, 240), white, white, white, rgb(220, 220, 220));
     background-repeat: no-repeat;
 }
 
@@ -15,12 +15,12 @@ main{
 img{
     height: 125px;
     border-radius: 50%;
-    border: 3px solid rgba(255, 230, 255, 1);
+    border: 1.5px solid blue;
     margin-top: 2%;
 }
 h2{
     font-size: 1.5rem;
-    color: #ffffff;
+    color: blue;
     font-family: "Red Hat Display", sans-serif;
     font-optical-sizing: auto;
     font-weight:550;
@@ -31,9 +31,8 @@ h2{
     letter-spacing: 3px;
 }
 h3{
-    color:white;
     font-size: 0.9rem;
-    color: #ffffff;
+    color: blue;
     font-family: "Red Hat Display", sans-serif;
     font-optical-sizing: auto;
     font-weight:550;
@@ -54,15 +53,9 @@ h3{
 .botoes button{
     height: 22%;
     font-size: 1rem;
-    background: linear-gradient(45deg,
-        rgb(12, 12, 12),
-        rgb(22, 18, 18),
-        black,
-        black,
-        black,
-        rgb(19, 18, 18));
-    border: 1px solid white;
-    color: white;
+    background:  linear-gradient(45deg, rgb(220, 220, 220), rgb(240, 240, 240), white, white, white, rgb(220, 220, 220));
+    border: 1px solid blue;
+    color: blue;
 }
 .botoes button:hover{
     cursor: pointer;
@@ -73,5 +66,11 @@ h3{
 a{
     font-style: none;
     text-decoration: none;
-    color:white;
+    color:blue;
+}
+#logo{
+    border:none;
+    border-radius: 0%;
+    width: 120px;
+    height: 100px;
 }
